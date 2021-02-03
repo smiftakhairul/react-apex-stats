@@ -4,7 +4,7 @@ import { NavLink, useLocation } from "react-router-dom";
 const Navbar = () => {
   return (
     <React.Fragment>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <NavLink exact className="navbar-brand" to="/">
             Apex Stats
@@ -33,6 +33,16 @@ const Navbar = () => {
                 </NavLink>
               </li>
 
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link"
+                  activeClassName="active"
+                  to="/legends"
+                >
+                  Legends
+                </NavLink>
+              </li>
+
               <li className="nav-item dropdown">
                 {/* <Route> */}
                 <a
@@ -42,7 +52,7 @@ const Navbar = () => {
                       ? "active"
                       : "")
                   }
-                  href="#"
+                  href="/#"
                   id="navbarDropdown"
                   role="button"
                   data-toggle="dropdown"

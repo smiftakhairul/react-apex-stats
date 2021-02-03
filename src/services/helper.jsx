@@ -1,8 +1,6 @@
-import React, { Component } from "react";
+import { Component } from "react";
 
 class Helper extends Component {
-  state = {};
-
   getStorageItem(key) {
     let output = null;
 
@@ -18,9 +16,11 @@ class Helper extends Component {
   setStorageItem(key, value) {
     try {
       localStorage.setItem(key, value);
+      return true;
     } catch (e) {
       this.setCookie(key, value);
     }
+    return false;
   }
 }
 

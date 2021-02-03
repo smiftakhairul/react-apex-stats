@@ -12,6 +12,7 @@ import {
 import Home from "../home/home";
 import Stats from "../stats/stats";
 import ConfigUser from "../settings/config-user/configUser";
+import Legends from "../legends/legends";
 
 const Main = () => {
   return (
@@ -25,6 +26,9 @@ const Main = () => {
             </Route>
             <Route path="/stats">
               <Stats />
+            </Route>
+            <Route path="/legends">
+              <Legends />
             </Route>
             <Route path="/settings/config-user">
               <ConfigUser />
