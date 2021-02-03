@@ -10,7 +10,7 @@ const BasicInfo = (props) => {
         <div className="col-md-3">
           <div className="card">
             <img
-              src="https://picsum.photos/800"
+              src={"https://picsum.photos/800"}
               className="card-img-top"
               alt=""
             />
