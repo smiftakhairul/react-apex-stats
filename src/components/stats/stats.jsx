@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Common from "../../services/common";
 import { Link } from "react-router-dom";
+import Info from "./info";
 
 class Stats extends Component {
   state = {
@@ -31,8 +32,6 @@ class Stats extends Component {
   };
 
   render() {
-    console.log(this.state.profile);
-
     return (
       <React.Fragment>
         {this.state.isApexStateFetching ? (
@@ -43,7 +42,7 @@ class Stats extends Component {
           <React.Fragment>
             {this.state.profile && Object.keys(this.state.profile).length ? (
               <React.Fragment>
-                <p>Profile fetched</p>
+                <Info stats={this.state.profile.stats} />
                 {/* <BasicInfo profileBasicInfo={this.state.profile.metadata} /> */}
               </React.Fragment>
             ) : (
