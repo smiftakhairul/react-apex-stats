@@ -10,9 +10,8 @@ const BasicInfo = (props) => {
         <div className="col-md-3">
           <div className="card">
             <img
-              src={process.env.PUBLIC_URL + "img/default-avatar.jpeg"}
+              src={process.env.PUBLIC_URL + "img/default-avatar.jpg"}
               className="card-img-top"
-              style={{ maxHeight: 200 }}
               alt=""
             />
             <div className="card-body">
