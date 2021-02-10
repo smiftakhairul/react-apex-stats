@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "../navbar/navbar";
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   //   Link,
