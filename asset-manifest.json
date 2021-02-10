@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-apex-stats/static/css/main.82ab0ffa.chunk.css",
+    "main.js": "/react-apex-stats/static/js/main.4190e788.chunk.js",
+    "main.js.map": "/react-apex-stats/static/js/main.4190e788.chunk.js.map",
+    "runtime-main.js": "/react-apex-stats/static/js/runtime-main.4a8caefb.js",
+    "runtime-main.js.map": "/react-apex-stats/static/js/runtime-main.4a8caefb.js.map",
+    "static/css/2.150d169a.chunk.css": "/react-apex-stats/static/css/2.150d169a.chunk.css",
+    "static/js/2.a4c09dfe.chunk.js": "/react-apex-stats/static/js/2.a4c09dfe.chunk.js",
+    "static/js/2.a4c09dfe.chunk.js.map": "/react-apex-stats/static/js/2.a4c09dfe.chunk.js.map",
+    "static/js/3.8468122f.chunk.js": "/react-apex-stats/static/js/3.8468122f.chunk.js",
+    "static/js/3.8468122f.chunk.js.map": "/react-apex-stats/static/js/3.8468122f.chunk.js.map",
+    "index.html": "/react-apex-stats/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/react-apex-stats/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.82ab0ffa.chunk.css.map": "/react-apex-stats/static/css/main.82ab0ffa.chunk.css.map",
+    "static/js/2.a4c09dfe.chunk.js.LICENSE.txt": "/react-apex-stats/static/js/2.a4c09dfe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a8caefb.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.a4c09dfe.chunk.js",
+    "static/css/main.82ab0ffa.chunk.css",
+    "static/js/main.4190e788.chunk.js"
+  ]
+}
