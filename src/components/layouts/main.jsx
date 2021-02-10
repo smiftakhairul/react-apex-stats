@@ -14,6 +14,7 @@ import Home from "../home/home";
 import Stats from "../stats/stats";
 import ConfigUser from "../settings/config-user/configUser";
 import Legends from "../legends/legends";
+import NotFound from "../errors/notFound";
 
 const Main = () => {
   return (
@@ -33,6 +34,10 @@ const Main = () => {
             </Route>
             <Route path="/settings/config-user">
               <ConfigUser />
+            </Route>
+
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </main>
